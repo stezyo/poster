@@ -1,0 +1,49 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    background-image: url('/images/background.png');
+    background-size: 80%;
+    background-position:center;
+    color: white;
+    display: flex;
+    height: 400px;
+    text-align: center;
+    
+}
+
+
+h4{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.mid{
+    background: white;
+    color: black;
+    margin: 20px;
+}
+
+.bot{
+    background: black;
+    color: white;
+}
+
+div img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
